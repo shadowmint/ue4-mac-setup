@@ -26,6 +26,9 @@ If you want to automate this process using this repository, do this:
     cd unreal-mac-setup
     sh ./setup.sh
 
+Notice that the build process downloads several GB of data, and compiles
+hundreds of source files. It might take an hour or so.
+
 Otherwise, follow the steps listed below.
 
 ### Manual
