@@ -6,13 +6,13 @@ It takes a while to do, but it's quite easy.
 
 ## Steps
 
-1. Install xcode
+### Install xcode
 
 Go to https://itunes.apple.com/au/app/xcode/id497799835?mt=12, or search the App store.
 
 It's a free install.
 
-2. Link your github account
+### Link your github account
 
 Go to https://www.unrealengine.com/ue4-on-github and follow the steps there.
 
@@ -30,19 +30,19 @@ Otherwise, follow the steps listed below.
 
 ### Manual
 
-3. Clone the unreal source code
+### Clone the unreal source code
 
     git clone git@github.com:EpicGames/UnrealEngine.git
 
-4. Run setup
+### Run setup
 
     cd UnrealEngine
     sh ./Setup.sh
 
-5. Generate your project files
+### Generate your project files
 
     sh ./GenerateProjectFiles.sh
 
-6. Build
+### Build
 
     xcodebuild -workspace UE4.xcworkspace -scheme UE4
