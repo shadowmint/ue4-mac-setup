@@ -49,3 +49,14 @@ Otherwise, follow the steps listed below.
 ### Build
 
     xcodebuild -workspace UE4.xcworkspace -scheme UE4
+
+## Troubleshooting
+
+### Hangs on update...
+
+    Registering git hooks... (this will override existing ones!)
+    Setting up Mono
+    Checking dependencies (excluding Win32, Win64, Android)...
+    Updating dependencies:  99% (20986/20998), 3386.0/3409.3 MiB | 0.00 MiB/s...
+
+...make sure your computer isn't set to 'wake for network access' in the power saving settings.
