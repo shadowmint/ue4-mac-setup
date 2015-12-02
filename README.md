@@ -22,8 +22,8 @@ Notice that you must first perform steps 1 and 2, above.
 
 If you want to automate this process using this repository, do this:
 
-    git clone git@github.com:shadowmint/unreal-mac-setup.git
-    cd unreal-mac-setup
+    git clone git@github.com:shadowmint/unreal-mac-setup.git unreal
+    cd unreal
     sh ./setup.sh
 
 Notice that the build process downloads several GB of data, and compiles

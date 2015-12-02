@@ -1,0 +1,6 @@
+[submodule "bin"]
+	path = bin
+	url = https://github.com/shadowmint/ue4-bash-scripts
+[submodule "projects/HelloWorld"]
+	path = projects/HelloWorld
+	url = git@github.com:shadowmint/ue4-helloworld.git
