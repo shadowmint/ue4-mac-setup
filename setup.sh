@@ -1,5 +1,6 @@
 #!/usr/bin/sh
-git clone git@github.com:EpicGames/UnrealEngine.git --recursive --depth 1
+RELEASE=4.10.2-release
+git clone git@github.com:EpicGames/UnrealEngine.git --recursive --depth 1 --branch $RELEASE
 cd UnrealEngine
 sh ./Setup.sh
 sh ./GenerateProjectFiles.sh
